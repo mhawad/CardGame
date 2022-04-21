@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF13BEA42811D98F00EF7BF8 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13BEA32811D98F00EF7BF8 /* PlayingView.swift */; };
 		CF5465E82811CFBE00DD2568 /* CardGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5465E72811CFBE00DD2568 /* CardGameApp.swift */; };
 		CF5465EA2811CFBE00DD2568 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5465E92811CFBE00DD2568 /* ContentView.swift */; };
 		CF5465EC2811CFBE00DD2568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5465EB2811CFBE00DD2568 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF13BEA32811D98F00EF7BF8 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayingView.swift; path = ../../../../CardGame/CardGame/CardGame/Views/PlayingView.swift; sourceTree = "<group>"; };
 		CF5465E42811CFBE00DD2568 /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5465E72811CFBE00DD2568 /* CardGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameApp.swift; sourceTree = "<group>"; };
 		CF5465E92811CFBE00DD2568 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF13BEA52811DBD600EF7BF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CF5465DB2811CFBE00DD2568 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +68,7 @@
 			children = (
 				CF96E35F2811D0F900737EA4 /* Component */,
 				CF96E35C2811D02500737EA4 /* Views */,
+				AF13BEA52811DBD600EF7BF8 /* Model */,
 				CF5465E72811CFBE00DD2568 /* CardGameApp.swift */,
 				CF5465E92811CFBE00DD2568 /* ContentView.swift */,
 				CF5465EB2811CFBE00DD2568 /* Assets.xcassets */,
@@ -80,6 +90,7 @@
 			children = (
 				CF96E35A2811D02000737EA4 /* LoginView.swift */,
 				CF96E35D2811D05000737EA4 /* RegisterView.swift */,
+				AF13BEA32811D98F00EF7BF8 /* PlayingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +176,7 @@
 				CF96E3612811D11A00737EA4 /* LogoView.swift in Sources */,
 				CF96E35B2811D02000737EA4 /* LoginView.swift in Sources */,
 				CF96E35E2811D05000737EA4 /* RegisterView.swift in Sources */,
+				AF13BEA42811D98F00EF7BF8 /* PlayingView.swift in Sources */,
 				CF5465EA2811CFBE00DD2568 /* ContentView.swift in Sources */,
 				CF5465E82811CFBE00DD2568 /* CardGameApp.swift in Sources */,
 			);
